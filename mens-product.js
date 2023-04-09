@@ -98,7 +98,7 @@ pricedsc.addEventListener("click",()=>{
 })
 
 
-    fetch("mens-input.json")
+    fetch("mens_products.json")
     .then((responseobj)=>{
         return responseobj.json();
     })
